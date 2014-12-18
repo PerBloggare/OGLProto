@@ -1,0 +1,215 @@
+object frmControl: TfrmControl
+  Left = 125
+  Height = 447
+  Top = 127
+  Width = 364
+  Caption = 'frmControl'
+  ClientHeight = 447
+  ClientWidth = 364
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object pagSettings: TPageControl
+    Left = 0
+    Height = 447
+    Top = 0
+    Width = 364
+    ActivePage = TabPerspective
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabPerspective: TTabSheet
+      Caption = 'Perspective and Movements'
+      ClientHeight = 421
+      ClientWidth = 356
+      object Label1: TLabel
+        Left = 0
+        Height = 13
+        Top = 69
+        Width = 52
+        Caption = 'Translation'
+        ParentColor = False
+      end
+      object Spinx: TSpinEdit
+        Left = 13
+        Height = 21
+        Top = 98
+        Width = 50
+        MinValue = -100
+        TabOrder = 0
+      end
+      object Spiny: TSpinEdit
+        Left = 75
+        Height = 21
+        Top = 98
+        Width = 50
+        MinValue = -100
+        TabOrder = 1
+      end
+      object Spinz: TSpinEdit
+        Left = 138
+        Height = 21
+        Top = 98
+        Width = 50
+        MinValue = -300
+        TabOrder = 2
+      end
+      object Fps: TMemo
+        Left = 208
+        Height = 421
+        Top = 0
+        Width = 148
+        Align = alRight
+        TabOrder = 3
+      end
+      object Label2: TLabel
+        Left = 0
+        Height = 13
+        Top = 131
+        Width = 40
+        Caption = 'Rotation'
+        ParentColor = False
+      end
+      object RSX: TSpinEdit
+        Left = 13
+        Height = 21
+        Top = 157
+        Width = 50
+        MaxValue = 180
+        MinValue = -180
+        TabOrder = 4
+      end
+      object RSY: TSpinEdit
+        Left = 75
+        Height = 21
+        Top = 157
+        Width = 50
+        MaxValue = 180
+        MinValue = -180
+        TabOrder = 5
+      end
+      object RSZ: TSpinEdit
+        Left = 138
+        Height = 21
+        Top = 157
+        Width = 50
+        MaxValue = 180
+        MinValue = -180
+        TabOrder = 6
+      end
+      object Label3: TLabel
+        Left = 13
+        Height = 13
+        Top = 143
+        Width = 7
+        Caption = 'X'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 75
+        Height = 13
+        Top = 143
+        Width = 7
+        Caption = 'Y'
+        ParentColor = False
+      end
+      object Label5: TLabel
+        Left = 138
+        Height = 13
+        Top = 143
+        Width = 7
+        Caption = 'Z'
+        ParentColor = False
+      end
+      object Label6: TLabel
+        Left = 0
+        Height = 13
+        Top = 8
+        Width = 56
+        Caption = 'Perspective'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 13
+        Height = 13
+        Top = 23
+        Width = 27
+        Caption = 'Angle'
+        ParentColor = False
+      end
+      object Label8: TLabel
+        Left = 75
+        Height = 13
+        Top = 23
+        Width = 53
+        Caption = 'Front plane'
+        ParentColor = False
+      end
+      object Label9: TLabel
+        Left = 138
+        Height = 13
+        Top = 23
+        Width = 52
+        Caption = 'Rear plane'
+        ParentColor = False
+      end
+      object Rear: TSpinEdit
+        Left = 138
+        Height = 21
+        Top = 37
+        Width = 50
+        MaxValue = 600
+        TabOrder = 7
+        Value = 100
+      end
+      object Front: TSpinEdit
+        Left = 75
+        Height = 21
+        Top = 37
+        Width = 50
+        MaxValue = 300
+        TabOrder = 8
+        Value = 1
+      end
+      object Fovy: TSpinEdit
+        Left = 13
+        Height = 21
+        Top = 36
+        Width = 50
+        MaxValue = 180
+        TabOrder = 9
+        Value = 60
+      end
+      object Label10: TLabel
+        Left = 16
+        Height = 13
+        Top = 80
+        Width = 7
+        Caption = 'X'
+        ParentColor = False
+      end
+      object Label11: TLabel
+        Left = 78
+        Height = 13
+        Top = 80
+        Width = 7
+        Caption = 'Y'
+        ParentColor = False
+      end
+      object Label12: TLabel
+        Left = 142
+        Height = 13
+        Top = 80
+        Width = 7
+        Caption = 'Z'
+        ParentColor = False
+      end
+    end
+  end
+  object tmrFps: TTimer
+    Enabled = False
+    OnTimer = tmrFpsTimer
+    left = 288
+    top = 264
+  end
+end

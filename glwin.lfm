@@ -1,0 +1,20 @@
+object frmGL: TfrmGL
+  Left = 686
+  Height = 464
+  Top = 71
+  Width = 582
+  Caption = 'Viewer'
+  ClientHeight = 464
+  ClientWidth = 582
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  Visible = True
+  object OpenGLControl1: TOpenGLControl
+    Left = 0
+    Height = 464
+    Top = 0
+    Width = 582
+    Align = alClient
+    OnResize = OpenGLControl1Resize
+  end
+end

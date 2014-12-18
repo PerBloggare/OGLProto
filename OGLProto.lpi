@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="OGLProto"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LazOpenGLContext"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="OGLProto.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="OGLProto"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="17"/>
+        <UsageCount Value="155"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="1" Y="86"/>
+        <UsageCount Value="79"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="vxtypes.pas"/>
+        <UnitName Value="vxtypes"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="54" Y="13"/>
+        <UsageCount Value="154"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="vxworld01.pas"/>
+        <UnitName Value="vxworld01"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="23" Y="58"/>
+        <UsageCount Value="40"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="d:\lazarus\fpc\2.6.4\source\rtl\inc\matrix.pp"/>
+        <UnitName Value="matrix"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="9" Y="62"/>
+        <UsageCount Value="69"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="d:\lazarus\fpc\2.6.4\source\rtl\inc\mvecimp.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="14"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="vxworld.pas"/>
+        <UnitName Value="vxworld"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="100"/>
+        <UsageCount Value="122"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="vxutils.pas"/>
+        <UnitName Value="vxutils"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="40" Y="47"/>
+        <UsageCount Value="122"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="vxcubes.pas"/>
+        <UnitName Value="vxcubes"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="88" Y="14"/>
+        <UsageCount Value="116"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="d:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="727"/>
+        <CursorPos X="3" Y="686"/>
+        <UsageCount Value="49"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="d:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="914"/>
+        <CursorPos X="76" Y="927"/>
+        <UsageCount Value="47"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="d:\lazarus\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="3" Y="42"/>
+        <UsageCount Value="4"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="d:\lazarus\fpc\2.6.4\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="416"/>
+        <CursorPos X="3" Y="429"/>
+        <UsageCount Value="4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="d:\lazarus\fpc\2.6.4\source\rtl\inc\objpash.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="178"/>
+        <CursorPos X="8" Y="187"/>
+        <UsageCount Value="4"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="glwin.lfm"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="15" Y="14"/>
+        <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="controlwin.lfm"/>
+        <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="controlwin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmControl"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ControlWin"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="56" Y="58"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="glwin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGL"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GlWin"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="1" Y="67"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="mvnoise.pas"/>
+        <UnitName Value="mvNoise"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="608"/>
+        <CursorPos X="1" Y="207"/>
+        <UsageCount Value="17"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="core_simplex_noise.pas"/>
+        <UnitName Value="core_simplex_noise"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="142"/>
+        <CursorPos X="23" Y="148"/>
+        <UsageCount Value="73"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="OGLProto.lrs"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="5212"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="63" Column="74" TopLine="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="38" Column="1" TopLine="29"/>
+      </Position2>
+      <Position3>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="47" Column="1" TopLine="34"/>
+      </Position3>
+      <Position4>
+        <Filename Value="glwin.pas"/>
+        <Caret Line="120" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="113" Column="3" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="72" Column="1" TopLine="59"/>
+      </Position6>
+      <Position7>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="9" Column="54" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="53" Column="38" TopLine="50"/>
+      </Position8>
+      <Position9>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="52" Column="38" TopLine="49"/>
+      </Position9>
+      <Position10>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="51" Column="38" TopLine="48"/>
+      </Position10>
+      <Position11>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="50" Column="38" TopLine="47"/>
+      </Position11>
+      <Position12>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="49" Column="38" TopLine="46"/>
+      </Position12>
+      <Position13>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="48" Column="38" TopLine="45"/>
+      </Position13>
+      <Position14>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="47" Column="38" TopLine="44"/>
+      </Position14>
+      <Position15>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="52" Column="30" TopLine="43"/>
+      </Position15>
+      <Position16>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="76" Column="1" TopLine="54"/>
+      </Position16>
+      <Position17>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="38" Column="1" TopLine="26"/>
+      </Position17>
+      <Position18>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="34" Column="12" TopLine="27"/>
+      </Position18>
+      <Position19>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="39" Column="1" TopLine="27"/>
+      </Position19>
+      <Position20>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="38" Column="1" TopLine="26"/>
+      </Position20>
+      <Position21>
+        <Filename Value="glwin.pas"/>
+        <Caret Line="27" Column="46" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="9" Column="27" TopLine="1"/>
+      </Position22>
+      <Position23>
+        <Filename Value="glwin.pas"/>
+        <Caret Line="110" Column="1" TopLine="1"/>
+      </Position23>
+      <Position24>
+        <Filename Value="glwin.pas"/>
+        <Caret Line="28" Column="1" TopLine="9"/>
+      </Position24>
+      <Position25>
+        <Filename Value="glwin.pas"/>
+        <Caret Line="26" Column="1" TopLine="15"/>
+      </Position25>
+      <Position26>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="34" Column="12" TopLine="31"/>
+      </Position26>
+      <Position27>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="57" Column="1" TopLine="28"/>
+      </Position27>
+      <Position28>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="47" Column="40" TopLine="41"/>
+      </Position28>
+      <Position29>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="52" Column="22" TopLine="48"/>
+      </Position29>
+      <Position30>
+        <Filename Value="controlwin.pas"/>
+        <Caret Line="55" Column="22" TopLine="51"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <TargetProcessor Value="pentium4"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowDebugInfo Value="True"/>
+      </Verbosity>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
